@@ -1,4 +1,4 @@
-package org.annakhuseinova;
+package org.annakhuseinova.thread.creation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

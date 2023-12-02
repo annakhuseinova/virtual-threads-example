@@ -1,4 +1,4 @@
-package org.annakhuseinova;
+package org.annakhuseinova.thread.creation;
 
 import java.util.concurrent.CountDownLatch;
 

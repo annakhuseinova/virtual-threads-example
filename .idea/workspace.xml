@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/InboundOutboundTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/example/StackTraceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/example/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/InboundOutboundTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation/InboundOutboundTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +59,28 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="org.annakhuseinova.InboundOutboundTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.StackTraceDemo">
+    <configuration name="InboundOutboundTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.InboundOutboundTaskDemo" />
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.creation.InboundOutboundTaskDemo" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.*" />
+          <option name="PATTERN" value="org.annakhuseinova.thread.creation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTraceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.example.StackTraceDemo" />
+      <module name="virtual-threads-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.annakhuseinova.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackTraceDemo" />
         <item itemvalue="Application.org.annakhuseinova.InboundOutboundTaskDemo" />
       </list>
     </recent_temporary>
@@ -88,7 +105,7 @@
       <updated>1701355238775</updated>
       <workItem from="1701355240010" duration="4072000" />
       <workItem from="1701367747733" duration="12759000" />
-      <workItem from="1701527017569" duration="5027000" />
+      <workItem from="1701527017569" duration="9278000" />
     </task>
     <servers />
   </component>
