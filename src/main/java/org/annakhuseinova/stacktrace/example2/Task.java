@@ -1,4 +1,4 @@
-package org.annakhuseinova.example;
+package org.annakhuseinova.stacktrace.example2;
 
 import org.annakhuseinova.util.CommonUtils;
 import org.slf4j.Logger;

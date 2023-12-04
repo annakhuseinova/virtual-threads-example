@@ -1,9 +1,14 @@
-package org.annakhuseinova.example;
+package org.annakhuseinova.stacktrace.example2;
+
+import org.annakhuseinova.util.CommonUtils;
+
+import java.time.Duration;
 
 public class StackTraceDemo {
 
     public static void main(String[] args) {
-        demo(Thread.ofPlatform());
+        demo(Thread.ofVirtual());
+        CommonUtils.sleep(Duration.ofSeconds(2));
     }
 
     private static void demo(Thread.Builder builder){
