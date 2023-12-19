@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/CPUTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/example/StackTraceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/stacktrace/example2/StackTraceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/example/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/stacktrace/example2/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation/InboundOutboundTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation1/InboundOutboundTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation1/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/CPUTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/CPUTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +37,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.preview.features.used": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.CPUTaskDemo">
     <configuration name="CPUTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.fibonacci3.CPUTaskDemo" />
@@ -135,7 +130,11 @@
       <workItem from="1701355240010" duration="4072000" />
       <workItem from="1701367747733" duration="12759000" />
       <workItem from="1701527017569" duration="9573000" />
-      <workItem from="1701542280796" duration="10952000" />
+      <workItem from="1701542280796" duration="15789000" />
+      <workItem from="1701689659759" duration="5085000" />
+      <workItem from="1702169856519" duration="2703000" />
+      <workItem from="1702500291620" duration="7012000" />
+      <workItem from="1703026416070" duration="1542000" />
     </task>
     <servers />
   </component>

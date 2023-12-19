@@ -9,9 +9,9 @@ public class Task {
     private static final Logger log = LoggerFactory.getLogger(Task.class);
 
     public static void cpuIntensiveTask(int i){
-        log.info("starting CPU task. Thread info: {}", Thread.currentThread());
+        log.debug("starting CPU task. Thread info: {}", Thread.currentThread());
         var timeTaken = CommonUtils.timer(()-> findFib(i));
-        log.info("ending CPU task. Time taken: {} ms", timeTaken);
+        log.debug("ending CPU task. Time taken: {} ms", timeTaken);
     }
 
 
