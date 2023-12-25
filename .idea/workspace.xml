@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/cooperative/scheduling4/CooperativeSchedulingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/race/condition5/Lecture1RaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/race/condition5/Lecture2Synchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/race/condition5/Lecture3SynchronizationWithIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/race/condition5/Lecture4InMemoryReentrantLockInsteadOfSynchronizedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/race/condition5/Lecture5ReentrantLockWithIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/factory6/Lecture1ThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/helpful/methods/Lecture1ThreadMethodsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/CPUTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/fibonacci3/CPUTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation1/InboundOutboundTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/creation1/InboundOutboundTaskDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +61,13 @@
       <recent name="org.annakhuseinova.race.condition5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture4InMemoryReentrantLockInsteadOfSynchronizedMethod">
-    <configuration name="CooperativeSchedulingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.cooperative.scheduling4.CooperativeSchedulingDemo" />
+  <component name="RunManager" selected="Application.Lecture1ThreadMethodsDemo">
+    <configuration name="Lecture1RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.race.condition5.Lecture1RaceCondition" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.cooperative.scheduling4.*" />
+          <option name="PATTERN" value="org.annakhuseinova.race.condition5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture1RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.race.condition5.Lecture1RaceCondition" />
+    <configuration name="Lecture1ThreadMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.helpful.methods.Lecture1ThreadMethodsDemo" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.race.condition5.*" />
+          <option name="PATTERN" value="org.annakhuseinova.thread.helpful.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture1ThreadMethodsDemo" />
         <item itemvalue="Application.Lecture4InMemoryReentrantLockInsteadOfSynchronizedMethod" />
         <item itemvalue="Application.Lecture3SynchronizationWithIO" />
         <item itemvalue="Application.Lecture2Synchronization" />
         <item itemvalue="Application.Lecture1RaceCondition" />
-        <item itemvalue="Application.CooperativeSchedulingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +155,7 @@
       <workItem from="1703026416070" duration="12540000" />
       <workItem from="1703418617561" duration="1831000" />
       <workItem from="1703421856068" duration="8124000" />
-      <workItem from="1703507654253" duration="5959000" />
+      <workItem from="1703507654253" duration="12001000" />
     </task>
     <servers />
   </component>
