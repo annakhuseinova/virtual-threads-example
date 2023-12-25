@@ -21,7 +21,7 @@ public class CPUTaskDemo {
     
     private static void demo(Thread.Builder builder){
         CountDownLatch latch = new CountDownLatch(TASKS_COUNT);
-        log.info("Starting number of tasks: {}", TASKS_COUNT);
+        log.info(  "Starting number of tasks: {}", TASKS_COUNT);
         for (int i = 0; i < TASKS_COUNT; i++) {
             builder.start(()-> {
                Task.cpuIntensiveTask(45);

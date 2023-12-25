@@ -17,6 +17,7 @@ public class InboundOutboundTaskDemo {
             Thread thread = new Thread(()-> Task.imitateIOIntensiveTask(j));
             thread.start();
         }
+        Thread.yield();
     }
 
     private static void platformThreadDemo2(){
