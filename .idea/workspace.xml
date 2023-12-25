@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/factory6/Lecture1ThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/helpful/methods/Lecture1ThreadMethodsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture1AutoCloseable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture2ExecutorServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/helpful/methods/Lecture1ThreadMethodsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/thread/helpful/methods7/Lecture1ThreadMethodsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Lecture1ThreadMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.helpful.methods.Lecture1ThreadMethodsDemo" />
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.helpful.methods7.Lecture1ThreadMethodsDemo" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.thread.helpful.methods.*" />
+          <option name="PATTERN" value="org.annakhuseinova.executor.service8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,7 +156,7 @@
       <workItem from="1703026416070" duration="12540000" />
       <workItem from="1703418617561" duration="1831000" />
       <workItem from="1703421856068" duration="8124000" />
-      <workItem from="1703507654253" duration="12001000" />
+      <workItem from="1703507654253" duration="20662000" />
     </task>
     <servers />
   </component>

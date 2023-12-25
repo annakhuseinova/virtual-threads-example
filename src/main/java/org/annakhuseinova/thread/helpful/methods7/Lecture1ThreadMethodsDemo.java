@@ -1,4 +1,4 @@
-package org.annakhuseinova.thread.helpful.methods;
+package org.annakhuseinova.thread.helpful.methods7;
 
 import org.annakhuseinova.util.CommonUtils;
 import org.slf4j.Logger;
