@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture3AccessResponseUsingFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture4AggregatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/aggregator/AggregatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/aggregator/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/externalservice/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture5ConcurrencyLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture6ConcurrencyLimitWithSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/concurrencylimit/ConcurrencyLimiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,20 +63,7 @@
       <recent name="org.annakhuseinova.race.condition5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture1ThreadMethodsDemo">
-    <configuration name="Lecture1RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.race.condition5.Lecture1RaceCondition" />
-      <module name="virtual-threads-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.race.condition5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture6ConcurrencyLimitWithSemaphore">
     <configuration name="Lecture1ThreadMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.helpful.methods7.Lecture1ThreadMethodsDemo" />
       <module name="virtual-threads-example" />
@@ -131,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture6ConcurrencyLimitWithSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.executor.service8.Lecture6ConcurrencyLimitWithSemaphore" />
+      <module name="virtual-threads-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.annakhuseinova.executor.service8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture6ConcurrencyLimitWithSemaphore" />
         <item itemvalue="Application.Lecture1ThreadMethodsDemo" />
         <item itemvalue="Application.Lecture4InMemoryReentrantLockInsteadOfSynchronizedMethod" />
         <item itemvalue="Application.Lecture3SynchronizationWithIO" />
         <item itemvalue="Application.Lecture2Synchronization" />
-        <item itemvalue="Application.Lecture1RaceCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +158,8 @@
       <workItem from="1703418617561" duration="1831000" />
       <workItem from="1703421856068" duration="8124000" />
       <workItem from="1703507654253" duration="21253000" />
-      <workItem from="1703588291650" duration="9822000" />
+      <workItem from="1703588291650" duration="10496000" />
+      <workItem from="1703619910158" duration="5246000" />
     </task>
     <servers />
   </component>
