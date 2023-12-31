@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture1SimpleCompletableFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture2RunAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture3SupplyAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/Lecture8ScheduledExecutorWithVirtualThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture4GetProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture5AggregatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture6AllOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture7AnyOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture8ThenCombine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/aggregator/AggregatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/aggregator/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/externalservice/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/concurrencylimit/ConcurrencyLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/concurrencylimit/ConcurrencyLimiter.java" afterDir="false" />
     </list>
@@ -52,6 +56,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anna/IdeaProjects/virtual-threads-example/src/main/java/org/annakhuseinova/completablefuture9&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,6 +70,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anna\IdeaProjects\virtual-threads-example\src\main\java\org\annakhuseinova\completablefuture9" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.annakhuseinova.race.condition5" />
     </key>
@@ -167,7 +175,10 @@
       <workItem from="1703588291650" duration="10496000" />
       <workItem from="1703619910158" duration="5304000" />
       <workItem from="1703626543028" duration="6868000" />
-      <workItem from="1703712186412" duration="8995000" />
+      <workItem from="1703712186412" duration="9537000" />
+      <workItem from="1703760718269" duration="8990000" />
+      <workItem from="1703939527331" duration="9159000" />
+      <workItem from="1704030609983" duration="5300000" />
     </task>
     <servers />
   </component>
