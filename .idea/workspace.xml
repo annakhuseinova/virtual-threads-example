@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture4GetProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture5AggregatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture6AllOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture7AnyOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/Lecture8ThenCombine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/aggregator/AggregatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/aggregator/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/completablefuture9/externalservice/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture1ThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture2InheritableThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture3ScopedValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture4AcceptSuccessOrFailureStructuredTaskScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture5ExpectAllSuccessOrCancelStructuredScopeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture6GetFirstSuccessfulAndCancelOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture7ScopedValuesWithStructuredTaskScope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/concurrencylimit/ConcurrencyLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/executor/service8/concurrencylimit/ConcurrencyLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +73,17 @@
       <recent name="C:\Users\Anna\IdeaProjects\virtual-threads-example\src\main\java\org\annakhuseinova\completablefuture9" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.annakhuseinova.threadlocalscopedvalues10" />
       <recent name="org.annakhuseinova.race.condition5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture2RunAsync">
+  <component name="RunManager" selected="Application.Lecture7ScopedValuesWithStructuredTaskScope">
     <configuration name="Lecture1SimpleCompletableFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.completablefuture9.Lecture1SimpleCompletableFuture" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.annakhuseinova.completablefuture9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture1ThreadMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.thread.helpful.methods7.Lecture1ThreadMethodsDemo" />
-      <module name="virtual-threads-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.executor.service8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture3ScopedValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.threadlocalscopedvalues10.Lecture3ScopedValues" />
+      <module name="virtual-threads-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.annakhuseinova.threadlocalscopedvalues10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lecture3SupplyAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.completablefuture9.Lecture3SupplyAsync" />
       <module name="virtual-threads-example" />
@@ -130,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture6ConcurrencyLimitWithSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.executor.service8.Lecture6ConcurrencyLimitWithSemaphore" />
+    <configuration name="Lecture7ScopedValuesWithStructuredTaskScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.annakhuseinova.threadlocalscopedvalues10.Lecture7ScopedValuesWithStructuredTaskScope" />
       <module name="virtual-threads-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.annakhuseinova.executor.service8.*" />
+          <option name="PATTERN" value="org.annakhuseinova.threadlocalscopedvalues10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture7ScopedValuesWithStructuredTaskScope" />
+        <item itemvalue="Application.Lecture3ScopedValues" />
         <item itemvalue="Application.Lecture2RunAsync" />
         <item itemvalue="Application.Lecture3SupplyAsync" />
         <item itemvalue="Application.Lecture1SimpleCompletableFuture" />
-        <item itemvalue="Application.Lecture6ConcurrencyLimitWithSemaphore" />
-        <item itemvalue="Application.Lecture1ThreadMethodsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1703712186412" duration="9537000" />
       <workItem from="1703760718269" duration="8990000" />
       <workItem from="1703939527331" duration="9159000" />
-      <workItem from="1704030609983" duration="5300000" />
+      <workItem from="1704030609983" duration="31655000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,21 @@
 package org.annakhuseinova.util;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.time.Duration;
 
 public final class CommonUtils {
+
+    private static final Logger log = LoggerFactory.getLogger(CommonUtils.class);
+
+    public static void sleep(String taskName, Duration duration){
+        try {
+            Thread.sleep(duration);
+        } catch (InterruptedException e){
+            log.info("{} is cancelled", taskName);
+        }
+    }
 
     public static void sleep(Duration duration){
         try {
