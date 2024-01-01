@@ -23,7 +23,10 @@ public class Lecture5ExpectAllSuccessOrCancelStructuredScopeTask {
             // throws TimeoutException if the given time is exceeded
             taskScope.joinUntil(Instant.now().plusSeconds(2));
 
+            // throw an ExecutionException if any task failed
             taskScope.throwIfFailed();
+            // throw the provided exception if any task failed
+            taskScope.throwIfFailed(throwable -> new RuntimeException("something went wrong"));
 
             // WHEN GETTING RESULTS OF DIFFERENT SCOPE TASKS ALWAYS CHECK THEIR STATE USING scopeTask.state() method!
             log.info("subtask1 state: {}", subtask1.state());

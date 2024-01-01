@@ -26,6 +26,7 @@ public class Lecture6GetFirstSuccessfulAndCancelOthers {
             log.info("subtask1 state: {}", subtask1.state());
             log.info("subtask2 state: {}", subtask2.state());
 
+            // In order to get the first received result - call taskScope.result() method
             log.info("subtask result: {}", taskScope.result());
 
         } catch (Exception e){

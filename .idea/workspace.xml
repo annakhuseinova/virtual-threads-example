@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b906d0-6aee-4c40-b10b-3f76c7fdb509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture1ThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture2InheritableThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture3ScopedValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture4AcceptSuccessOrFailureStructuredTaskScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture5ExpectAllSuccessOrCancelStructuredScopeTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture6GetFirstSuccessfulAndCancelOthers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture7ScopedValuesWithStructuredTaskScope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/util/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture5ExpectAllSuccessOrCancelStructuredScopeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture5ExpectAllSuccessOrCancelStructuredScopeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture6GetFirstSuccessfulAndCancelOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annakhuseinova/threadlocalscopedvalues10/Lecture6GetFirstSuccessfulAndCancelOthers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +172,7 @@
       <workItem from="1703712186412" duration="9537000" />
       <workItem from="1703760718269" duration="8990000" />
       <workItem from="1703939527331" duration="9159000" />
-      <workItem from="1704030609983" duration="31655000" />
+      <workItem from="1704030609983" duration="32316000" />
     </task>
     <servers />
   </component>
